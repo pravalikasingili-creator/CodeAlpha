@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="player">
+  <h2 id="title">Nee Padalaku Muvalla</h2>
+  <h4 id="artist"> Sid Sriram</h4>
+
+  <audio controls><source src="WhatsApp Audio 2025-08-29 at 21.24.25_ab93dcf0.mp3"></audio>
+    <input type="range" id="progress" value="0">
+
+  <div class="controls">
+    <button onclick="playPause()">▶/⏸</button>
+  </div>
+
+  <label>Volume:
+    <input type="range" id="volume" min="0" max="1" step="0.1" value="4.53">
+  </label>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
